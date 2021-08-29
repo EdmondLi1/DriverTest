@@ -5,6 +5,7 @@
     font-size: 1.8rem;
     border: 0.1rem solid rgba(86, 165, 235, 0.25);
     background-color: white;
+    border-radius: 15px;
 }
 .choice-container:hover {
     cursor: pointer;
@@ -17,6 +18,7 @@
     padding: 1.5rem 2.5rem;
     background-color: #56A5EB;
     color: white;
+    border-radius: 5px;
 }
 
 .choice-text {
@@ -32,6 +34,17 @@
     background-color: #DC3545;
 }
 
+img {
+    border-radius: 5px;
+    margin: auto;
+    width: 25vw;
+    height: auto;
+    max-width: 350px;
+    /* max-height: 350px; */
+    margin-bottom: 5rem;
+    /* width: 150px;
+    height: 200px; */
+}
 /* HUD Styling */
 #hud {
     display: flex;
@@ -41,6 +54,8 @@
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    font-weight: 500;
+    
 }
 
 .hud-main-text {

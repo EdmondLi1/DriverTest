@@ -6,7 +6,7 @@ const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
-
+const questionImage = document.getElementById("questionImage");
 
 // Quiz Constants
 const CORRECT_BONUS = 10;
@@ -20,54 +20,94 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let avaliableQuestions = [];
+let roadSignQuestions = [];
+let roadRuleQuestions = [];
 let questionSign = [];
 let questionRule = [];
-
 
 // Questions in stored in array using Objects (use JSON)
 /* Fetch .json file then convert to json (readable), 
 store in an Array and then catch errors. */
-let roadSignQuestions = [];
-let roadRuleQuestions = [];
 
-// insert json file here using fetch api
-fetch("questions/roadSigns.json")
-    .then(response => {
-        return response.json(); 
-    })
-    .then(loadedQuestions => {
-        roadSignQuestions = loadedQuestions;
-    })
-    .catch(error => {
-       console.error(error); 
-    });
+// // insert json file here using fetch api
+// fetch("questions/roadSigns.json")
+//     .then(response => {
+//         return response.json(); 
+//     })
+//     .then(loadedQuestions => {
+//         roadSignQuestions = loadedQuestions;
+//     })
+//     .catch(error => {
+//        console.error(error); 
+//     });
     
-// insert json file here using fetch api
-fetch("questions/roadRules.json")
-    .then(response => {
-        return response.json(); 
-    })
-    .then(loadedQuestions => {
-        roadRuleQuestions = loadedQuestions;
-        startQuiz();
-    })
-    .catch(error => {
-       console.error(error); 
+// // insert json file here using fetch api
+// fetch("questions/roadRules.json")
+//     .then(response => {
+//         return response.json(); 
+//     })
+//     .then(loadedQuestions => {
+//         roadRuleQuestions = loadedQuestions;
+//     })
+//     .catch(error => {
+//        console.error(error); 
+//     });
+
+// Fetch JSON Files of questions for the test
+// startQuiz() is used when data is solved
+fetch('/questions/roadSigns.json')
+.then(
+    function(response) {
+    if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+        response.status);
+        return;
+    }
+    // Examine the text in the response
+    response.json().then(function(data) {
+        roadSignQuestions = data;
+        questionSign = chooseRandomQuestion(roadSignQuestions);
     });
+    }
+)
+.catch(function(err) {
+    console.log('Fetch Error :-S', err);
+});
+
+fetch('/questions/roadSigns.json')
+.then(
+    function(response) {
+    if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+        response.status);
+        return;
+    }
+    // Examine the text in the response
+    response.json().then(function(data) {
+        roadRuleQuestions = data;
+        questionRule = chooseRandomQuestion(roadRuleQuestions);
+        startQuiz();
+    });
+    }
+)
+.catch(function(err) {
+    console.log('Fetch Error :-S', err);
+});
 
 /* startQuiz 'Main Game' Fnction
 - initalize score, questionCounter
 - loads avaliableQuestion 'questions' JSON (line 18 to ~) */ 
 
 const chooseRandomQuestion = (questions) => {
-    const MAX_SUB_QUESTIONS = 20;
+    // const MAX_SUB_QUESTIONS = 20;
+    // let questionList = [...questions]
     let usedIndex = [];
 
     let randomIndex = Math.floor(Math.random() * questions.length);
     let randomQuestionList = [];
 
-    while (randomQuestionList.length < MAX_SUB_QUESTIONS) {
-        if (!(questions[randomIndex] in randomQuestionList)) {
+    while (randomQuestionList.length < MAX_QUESTIONS) {
+        if (!(randomQuestionList.includes(questions[randomIndex]))) {
             randomQuestionList.push(questions[randomIndex]);
             usedIndex.push(randomIndex);
         }
@@ -76,12 +116,12 @@ const chooseRandomQuestion = (questions) => {
     return randomQuestionList;
 };
 
+
+
 startQuiz = () => {
     questionCounter = 0;
     score = 0;
-
-    questionSign = chooseRandomQuestion(roadSignQuestions);
-    questionRule = chooseRandomQuestion(roadRuleQuestions);
+;
     console.log(questionSign);
 
     // allQuestions = roadSignQuestions.concat(roadRuleQuestions)
@@ -108,6 +148,7 @@ getNewQuestion = () => {
         // switch to random end of sign questions, beginning rules
 
         // unload img foor sign quiz
+        questionImage.src = null; // should add an hide css style on img
 
     }
     // When the quiz ends, save score and move to 'end.html'
@@ -120,21 +161,23 @@ getNewQuestion = () => {
     // Updating questionCounter
     questionCounter++;
     // questionCounterText.innerText = `${questionCounter} / ${MAX_QUESTIONS}`;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressText.innerText = `Question ${questionCounter} / ${MAX_QUESTIONS}`;
+    
     // Update the progrss bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
 
     const questionIndex = Math.floor(Math.random() * avaliableQuestions.length);
     currentQuestion = avaliableQuestions[questionIndex];
+    console.log(currentQuestion, avaliableQuestions);
+
     // Change question text
     question.innerText = currentQuestion.question;
 
-    // change image text
     if (!finishedSign) {
-        // laod img for sign quiz
+        questionImage.src = currentQuestion.image;
     }
-   
+
     // Printing Choices on HTML
     choices.forEach(choice => {
         const number = choice.dataset["number"];
@@ -183,4 +226,5 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 };
+
 
