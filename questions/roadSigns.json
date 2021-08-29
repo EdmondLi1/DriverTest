@@ -1,14 +1,16 @@
 [
     {
         "question": "What does this sign mean?",
-        "choice1":  "Bump 120 meters (400 feet) ahead",
-        "choice2":  "Stop sign 150 meters (500 feet) ahead",
-        "choice3":  "Traffic sign ahead",
+        "image":    "images/question1.jpg",
+        "choice1":  "Bump 120 metres (400 feet) ahead",
+        "choice2":  "Stop sign 150 metres (500 feet) ahead",
+        "choice3":  "Traffic signs ahead",
         "choice4":  "Railway crossing ahead",
         "answer": 2
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question2.jpg",
         "choice1":  "Stop sign ahead",
         "choice2":  "Yeild right-of-way",
         "choice3":  "Dead end street ahead",
@@ -17,7 +19,8 @@
     },
     {
         "question": "What does this sign mean?",
-        "choice1":  "Do not pass any vehicles within 30 meters of a pedestrian crossing",
+        "image":    "images/question3.jpg",
+        "choice1":  "Do not pass any vehicles within 30 metres of a pedestrian crossing",
         "choice2":  "School zone",
         "choice3":  "Uneven pavement ahead",
         "choice4":  "Construction zone",
@@ -25,6 +28,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question4.jpg",
         "choice1":  "No right turn",
         "choice2":  "Divided highway ends",
         "choice3":  "Narrow bridge ahead",
@@ -33,14 +37,16 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question5.jpg",
         "choice1":  "You must make a right turn only",
         "choice2":  "You must not make a left turn",
-        "choice3":  "Hideen intersesction ahead",
+        "choice3":  "Hidden intersesction ahead",
         "choice4":  "You are approaching a traffic island",
         "answer": 1
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question6.jpg",
         "choice1":  "You may exit if you remain in right hand lane",
         "choice2":  "You must not drive in right hand lane under any circumstances",
         "choice3":  "End of highway, you must move into right hand lane",
@@ -49,6 +55,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question7.jpg",
         "choice1":  "Intersection ahead",
         "choice2":  "Narrow bridge ahead",
         "choice3":  "Paved surface ends ahead",
@@ -57,6 +64,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question8.jpg",
         "choice1":  "Pass to right of traffic island",
         "choice2":  "Road turns right then left",
         "choice3":  "Winding road ahead",
@@ -65,6 +73,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question9.jpg",
         "choice1":  "X-intersection for school vehicles",
         "choice2":  "School crosswalk sign",
         "choice3":  "Caution—school bus crossing",
@@ -73,14 +82,16 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question10.jpg",
         "choice1":  "Policemen at intersection", 
         "choice2":  "You will get a ticket if you do not obey traffic signal",
         "choice3":  "Stop for red light at intersection",
-        "choice4":  "Red ligth camera at intersection",
+        "choice4":  "Red light camera at intersection",
         "answer": 3
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question11.jpg",
         "choice1":  "You are approaching a four-way intersection",
         "choice2":  "You are approaching a railroad crossing",
         "choice3":  "You are approaching a hospital zone",
@@ -89,6 +100,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question12.jpg",
         "choice1":  "Divided highway begins",
         "choice2":  "Divded highway ends",
         "choice3":  "Narrow bridge ahead",
@@ -97,6 +109,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question13.jpg",
         "choice1":  "Truck route",
         "choice2":  "No trucks",
         "choice3":  "Route for large trucks",
@@ -105,7 +118,8 @@
     },
     {
         "question": "What does this sign mean?",
-        "choice1":  "A hiddden scbool bus stop ahead, slow down, druve with extra caution, watch for children and school buses with flashing red lights",
+        "image":    "images/question14.jpg",
+        "choice1":  "A hiddden scbool bus stop ahead, slow down, drive with extra caution, watch for children and school buses with flashing red lights",
         "choice2":  "Hidden intersection",
         "choice3":  "School zone",
         "choice4":  "School with playground",
@@ -113,14 +127,16 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question15.jpg",
         "choice1":  "Stop sign ahead",
         "choice2":  "Yield right-of-way",
-        "choice3":  "Dead end stret ahead",
+        "choice3":  "Dead end street ahead",
         "choice4":  "Slow moving vehicle",
         "answer": 3
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question16.jpg",
         "choice1":  "School area ahead",
         "choice2":  "Railway crossing ahead",
         "choice3":  "You must give right-of-way",
@@ -129,6 +145,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question17.jpg",
         "choice1":  "Factory, slow down",
         "choice2":  "Bump or uneven pavement ahead",
         "choice3":  "Construction zone",
@@ -137,6 +154,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question18.jpg",
         "choice1":  "Road slippery when wet",
         "choice2":  "No right turn permitted",
         "choice3":  "No left turn permitted",
@@ -145,38 +163,43 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question19.jpg",
         "choice1":  "Lane usage sign meaning of right turn only",
         "choice2":  "Lane usage sign permitting all turns including left",
-        "choice3":  "No aprking from arrows to corner",
+        "choice3":  "No parking from arrows to corner",
         "choice4":  "Advance warning of danger",
         "answer": 0
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question20.jpg",
         "choice1":  "Divided highway ahead",
         "choice2":  "You are appproaching a one-way street",
-        "choice3":  "Hidden intersection",
+        "choice3":  "Hidden intersection ahead",
         "choice4":  "Pavement narrows",
         "answer": 3 
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question21.jpg",
         "choice1":  "Truck entrance on the right side ahead",
-        "choice2":  "No truck allowed",
+        "choice2":  "No trucks allowed",
         "choice3":  "Slow down for truck",
         "choice4":  "Truck route",
         "answer": 0
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question22.jpg",
         "choice1":  "Destination board",
-        "choice2":  "School zone—watc for children playing",
+        "choice2":  "School zone—watch for children playing",
         "choice3":  "Provincal park",
         "choice4":  "Pedestrian control sign",
         "answer": 0
     },
     {
-        "question": "What does this sign mean?",
+        "question": "What does the red circle mean?",
+        "image":    "images/question23.jpg",
         "choice1":  "Do not enter roadway",
         "choice2":  "Do not enter unless local traffic",
         "choice3":  "A traffic circle ahead",
@@ -185,6 +208,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question24.jpg",
         "choice1":  "Drive with caution",
         "choice2":  "Share the road with oncoming traffic",
         "choice3":  "Slippery when wet",
@@ -193,6 +217,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question25.jpg",
         "choice1":  "Narrow bridge ahead",
         "choice2":  "Road ahead turns left then right",
         "choice3":  "Road ahead turns right then left",
@@ -201,6 +226,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question26.jpg",
         "choice1":  "No entry into intersection",
         "choice2":  "This sign means no stopping",
         "choice3":  "Vehicles approaching from the angle shown, must stop",
@@ -209,6 +235,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question27.jpg",
         "choice1":  "Maximum speed of 50 km (30 miles) per hour from this sign to the next sign",
         "choice2":  "Speed limit for rural school zones",
         "choice3":  "End of 50 km (30 miles) per hour zone",
@@ -217,6 +244,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question28.jpg",
         "choice1":  "Construction sign—slow down obey flagman's direction",
         "choice2":  "A construction sign replacing flagman on duty",
         "choice3":  "Regulatory sign—reduce speed",
@@ -225,6 +253,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question29.jpg",
         "choice1":  "Do not come near",
         "choice2":  "New born baby on board",
         "choice3":  "New driver",
@@ -233,6 +262,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question30.jpg",
         "choice1":  "Hidden intersection ahead",
         "choice2":  "Winding road",
         "choice3":  "Road slippery when wet",
@@ -241,14 +271,16 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question31.jpg",
         "choice1":  "This lane is reserved for specific types of vehicles during certain times and days such as buses, taxis, bicycles, and vehicles with more than three passengers",
-        "choice2":  "No buses allowed on specific lanes during posted times",
+        "choice2":  "No buses allowed on specific lanes during posted times and days",
         "choice3":  "No stopping within the times and days",
         "choice4":  "Do not enter between the times and days",
         "answer": 0
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question32.jpg",
         "choice1":  "Keep to the right",
         "choice2":  "Keep to the let",
         "choice3":  "Keep out (do not enter)",
@@ -257,6 +289,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question33.jpg",
         "choice1":  "Winding road ahead",
         "choice2":  "Bumpy road ahead",
         "choice3":  "Road ahead slippery when wet",
@@ -265,30 +298,34 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question34.jpg",
         "choice1":  "Care for pedestrian",
         "choice2":  "Watch for traffic signal",
         "choice3":  "Do not block intersection",
-        "choice4":  "No passing",
+        "choice4":  "Do not slow down",
         "answer": 2
     },
     {
         "question": "What does this sign mean?",
-        "choice1":  "You nmay exit if you remain in right hand lane",
+        "image":    "images/question35.jpg",
+        "choice1":  "You may exit if you remain in right hand lane",
         "choice2":  "You must not drive in right hand lane under any circumstances",
-        "choice3":  "End of highwaym you must move into right hand lane",
+        "choice3":  "End of highway, you must move into right hand lane",
         "choice4":  "You must exit if you remain in right hand lane",
         "answer": 3
     },
     {
         "question": "What does this sign mean?",
-        "choice1":  "Stop sign 150 meters (500 feet) ahead",
-        "choice2":  "Bump 120 meters (400 feet) ahead",
+        "image":    "images/question36.jpg",
+        "choice1":  "Stop sign 150 metres (500 feet) ahead",
+        "choice2":  "Bump 120 metres (400 feet) ahead",
         "choice3":  "Stop at all times",
         "choice4":  "Stop only if other vehicles are approaching",
         "answer": 2
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question37.jpg",
         "choice1":  "By wheel-chair only or disabled person parking (handicap)",
         "choice2":  "Winding road ahead",
         "choice3":  "No parking",
@@ -297,14 +334,16 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question38.jpg",
         "choice1":  "I am turning right",
-        "choice2":  "I am turning Left",
+        "choice2":  "I am turning left",
         "choice3":  "I am slowing or stopping",
         "choice4":  "You may pass me",
         "answer": 0
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question39.jpg",
         "choice1":  "Deer regularly cross, be alert for animals",
         "choice2":  "Zoo ahead",
         "choice3":  "No honking at animals",
@@ -313,6 +352,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question40.jpg",
         "choice1":  "Winding road ahead",
         "choice2":  "Keep to left",
         "choice3":  "Danger, road ends",
@@ -321,6 +361,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question41.jpg",
         "choice1":  "Divided highway ahead",
         "choice2":  "Divided highway ends",
         "choice3":  "Narrow bridge ahead",
@@ -329,6 +370,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question42.jpg",
         "choice1":  "I am turning left",
         "choice2":  "I am slowing or stopping",
         "choice3":  "I am turning right",
@@ -337,14 +379,16 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question43.jpg",
         "choice1":  "Narrow road ahead",
         "choice2":  "Hidden intersection ahead",
         "choice3":  "Railway crossing ahead",
-        "choice4":  "Intersection ahead, the arrow shows which direction has the right-of-way",
+        "choice4":  "Intersection ahead, the arrow shows which direction of traffic has the right-of-way",
         "answer": 3
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question44.jpg",
         "choice1":  "Safety check ahead",
         "choice2":  "Warns of a steep hill ahead",
         "choice3":  "Pavement ends, 500 feet ahead",
@@ -353,6 +397,7 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question45.jpg",
         "choice1":  "School area",
         "choice2":  "Bumpy road",
         "choice3":  "Do not stand or stop in this area",
@@ -361,14 +406,16 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question46.jpg",
         "choice1":  "Right lane ends",
         "choice2":  "Hidden intersection ahead",
-        "choice3":  "You are approaching steep hill",
+        "choice3":  "You are approaching a steep hill",
         "choice4":  "Pedestrian crossing ahead",
         "answer": 0
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question47.jpg",
         "choice1":  "I am turning right",
         "choice2":  "I am turning left",
         "choice3":  "I am slowing or stopping",
@@ -377,14 +424,16 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question48.jpg",
         "choice1":  "Right lane ends",
         "choice2":  "Hidden intersection ahead",
-        "choice3":  "You are approaching steep hill",
+        "choice3":  "You are approaching a steep hill",
         "choice4":  "Passing is not allowed",
         "answer": 3
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question49.jpg",
         "choice1":  "Playground zone sign",
         "choice2":  "Children playing in residential area",
         "choice3":  "School zone sign",
@@ -393,14 +442,16 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question50.jpg",
         "choice1":  "No smoking",
-        "choice2":  "Not more than 3 minutes idling",
+        "choice2":  "No more than 3 minutes idling",
         "choice3":  "Idling is permitted",
-        "choice4":  "No stopping more than 3 minutes",
+        "choice4":  "No stopping for more than 3 minutes",
         "answer": 1
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question51.jpg",
         "choice1":  "When a school bus arm swings out with a red lights flashing, you must stop and you are prohibited from passing",
         "choice2":  "Construction sign",
         "choice3":  "School zone",
@@ -409,17 +460,19 @@
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question52.jpg",
         "choice1":  "It is a warning sign",
-        "choice2":  "During school hours when the yellow lights are flashing, following the speed limit shown",
+        "choice2":  "During school hours when the yellow lights are flashing, follow the speed limit shown",
         "choice3":  "Watch for cross guard only",
         "choice4":  "Watch for children only",
         "answer": 1
     },
     {
         "question": "What does this sign mean?",
+        "image":    "images/question53.jpg",
         "choice1":  "Highway with two express lanes",
         "choice2":  "The two lanes ahead are closed",
-        "choice3":  "Two or more passenders must be in the vehicle to use this lane on the highway (HOV Sign)",
+        "choice3":  "Two or more passengers must be in the vehicle to use this lane on the highway (HOV Sign)",
         "choice4":  "Two lanes will merge into one",
         "answer": 2
     }
