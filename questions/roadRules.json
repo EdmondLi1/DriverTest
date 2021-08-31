@@ -1,274 +1,842 @@
 [
     {
-        "question": "Inside which HTML element do we put the JavaScript??",
-        "choice1":  "<script>",
-        "choice2":  "<javascript>",
-        "choice3":  "<js>",
-        "choice4":  "<scripting>",
-        "answer": 0
-    },
-    {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1":  "<script href='xxx.js'>",
-        "choice2":  "<script name='xxx.js'>",
-        "choice3":  "<script src='xxx.js'>",
-        "choice4":  "<script file='xxx.js'>",
+        "question": "When does the law require lights on vehicles to be turned on?",
+        "choice1":  "Between sunset and sunrise",
+        "choice2":  "Between dusk and dawn and at any other time you cannot see clearly for a distance of 150 m (500 ft.)",
+        "choice3":  "Between half an hour before sunset and half an hour after sunrise and at any other time you cannot see clearly for a distance of 150 m (500 ft.)",
+        "choice4":  "No specific time",
         "answer": 2
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "In what position on the roadway must you be before making a left turn from a one-way traffic street?",
+        "choice1":  "Close to the right-hand side of the roadway",
+        "choice2":  "Close to the centre line of the roadway",
+        "choice3":  "Close to the left side of the roadway",
+        "choice4":  "Does not matter provided you signal",
+        "answer": 2
+    },
+    {
+        "question": "When two cars reach an uncontrolled intersection at approximately the same time, the right-of-way shoild be given to:",
+        "choice1":  "The one approaching from the left",
+        "choice2":  "The one approaching from the right",
+        "choice3":  "Neither one",
+        "choice4":  "The one moving faster",
+        "answer": 1
+    },
+    {
+        "question": "When a streetcar stops to take on or discharge passengers, where there is no safety zone, what does the law require you to do before passing the streetcar?",
+        "choice1":  "Stop behind the rear of the streetcar and then proceed",
+        "choice2":  "Sound horn and pass with caution",
+        "choice3":  "Pass on the left side when the way is clear",
+        "choice4":  "Stop 2 m (6 ft.) behind te rearmost door where passengers are getting on or off, and proceed only when it is safe to do so",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "When it is safe to do so, passing other vehicles on the right side:",
+        "choice1":  "Is permitted on any street or highway",
+        "choice2":  "Is permitted providing it is possible to do so by driving on the shoulder of the road",
+        "choice3":  "Is not permitted under any circumstances",
+        "choice4":  "Is permitted when the street or highway has two or more lanes for traffic in the direction you are travelling",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "Which of the following has the right-of-way over all others at an intersection when the signal light is green?",
+        "choice1":  "Pedestrians crossing against the light",
+        "choice2":  "Pedestrians crossing with the light",
+        "choice3":  "Vehicles turning right",
+        "choice4":  "Vehicles turning left",
+        "answer": 1
+    },
+    {
+        "question": "On a roadway where traffic is moving in both directions, in what position must you be before making a left turn?",
+        "choice1":  "Close to the right-hand side of the roadway",
+        "choice2":  "Close to the left side of the roadway",
+        "choice3":  "Immediately to the right of the centre line of the roadway",
+        "choice4":  "Does not matter provided you signal",
+        "answer": 2
+    },
+    {
+        "question": "When a red signal light wtih a green arrow is shown at an intersection it means:",
+        "choice1":  "Stop and wait for the green light before making a turn in the direction of the arrow",
+        "choice2":  "Proceed with caution in the direction of the arrow, yielding right-of-way to pedestrians and other traffic",
+        "choice3":  "Stop and then proceed",
+        "choice4":  "The green arrow is a signal for pedestrians only",
+        "answer": 1
+    },
+    {
+        "question": "When entering a freeway you should:",
+        "choice1":  "Stop on acceleration lane, wait for an opening, then enter the freeway rapidly",
+        "choice2":  "Accelerate quickly to freeway speed and merge with freeway traffic",
+        "choice3":  "Slow down, and then enter the freeway at a sharp angle",
+        "choice4":  "Drive slowly and be prepared to stop for freeway traffic",
+        "answer": 1
+    },
+    {
+        "question": "Every accident must be reported to the police where there is a personal injury of when the damage exceeds:",
+        "choice1":  "$100",
+        "choice2":  "$150",
+        "choice3":  "$1500",
+        "choice4":  "$2000",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "While travelling on a highway, the driver of a motor vehicle is not permitted to carry ______ in a house or boat trailer:",
+        "choice1":  "Firearms",
+        "choice2":  "Flammable material",
+        "choice3":  "People (passengers)",
+        "choice4":  "Pets",
+        "answer": 2
+    },
+    {
+        "question": "At what minimum blood alcohol level can the police immediately suspend your G license for three days for the first offence?",
+        "choice1":  "0.03%",
+        "choice2":  "0.05%",
+        "choice3":  "0.08%",
+        "choice4":  "1.0%",
+        "answer": 1
+    },
+    {
+        "question": "In Ontario, is there a seat belt law?",
+        "choice1":  "Yes",
+        "choice2":  "No",
+        "choice3":  "Only when driving on an open highway",
+        "choice4":  "Only when driving within a municipality",
+        "answer": 0
+    },
+    {
+        "question": "When lights are required, drivers must use lower beam headlights when following another vehicle:",
+        "choice1":  "Within 30 m (100 ft.)",
+        "choice2":  "Within 60 m (200 ft.)",
+        "choice3":  "Within 120 m (400 ft.)",
+        "choice4":  "This only applies when approaching another vehicle",
+        "answer": 1
+    },
+    {
+        "question": "If the signal light changes from green to amber (yellow) as you approach an intersection, what should you do?",
+        "choice1":  "Stop. If stop cannot be made safely, proceed with caution",
+        "choice2":  "Speed up to clear the intersection as quickly as possible",
+        "choice3":  "Continue through intersection without slowing or stopping",
+        "choice4":  "Sound horn to warn pedestrians and other drivers that you do not intend to stop",
+        "answer": 0
+    },
+    {
+        "question": "Upon approaching a Yield-sign, what does the law require you to do?",
+        "choice1":  "Slow down, stop if necessary, and yield right-of-way",
+        "choice2":  "Stop, then enter traffic slowly",
+        "choice3":  "Stop, then enter traffic quickly",
+        "choice4":  "Speed up and force your way into traffic",
+        "answer": 0
+    },
+    {
+        "question": "A person whose driver's license is under suspension, may:",
+        "choice1":  "Operate a motor vehicle in a case of extreme emergency",
+        "choice2":  "Operate a motor vehicle to and from work",
+        "choice3":  "Operate a motor vehicle when accompanied by a licensed driver",
+        "choice4":  "Not operate a motor vehicle under any conditions",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "Are drivers responsible for their passengers buckling up?",
+        "choice1":  "Only if passengers are over sixteen years of age",
+        "choice2":  "Only if passengers are under sixteen years of age",
+        "choice3":  "Only if passengers are in the front seat",
+        "choice4":  "Only if passengers are over eighteen years of age",
+        "answer": 1
+    },
+    {
+        "question": "Before leaving your car parked on a downgrade, you should:",
+        "choice1":  "Leave your front wheels parallel to the curb",
+        "choice2":  "Turn your front wheels to the left and set your parking brake",
+        "choice3":  "Set your parking brake only",
+        "choice4":  "Turn your front wheels to the right and set your parking brake",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "When a right turn against a red signal light is permitted, what does the law require you to do before entering the intersection and making the turn?",
+        "choice1":  "Slow down, proceed with caution",
+        "choice2":  "Stop, then edge into traffic",
+        "choice3":  "Signal, stop, make the turn so as not to interfere with other traffic, including pedestrians",
+        "choice4":  "Slow down, signal, and turn",
+        "answer": 2
+    },
+    {
+        "question": "The best way to stop quickly on a wet or icy roadway is to:",
+        "choice1":  "Pump the brake until you come to a stop",
+        "choice2":  "Keep foot off the brake and let compression stop you",
+        "choice3":  "Step on the brakes hard and try to prevent the vehicle from skidding",
+        "choice4":  "Apply brakes the same way you always do",
+        "answer": 0
+    },
+    {
+        "question": "In what lane of traffic should you drive when you intend to make a right-hand turn",
+        "choice1":  "Close to the left side of the roadway",
+        "choice2":  "Cloes to the right-hand side of the roadway",
+        "choice3":  "Close to the centre line of the roadway",
+        "choice4":  "Does not matter provided you signal",
+        "answer": 1
+    },
+    {
+        "question": "When driving in heavy fog, you should use:",
+        "choice1":  "Parking lights",
+        "choice2":  "Low beam headlights",
+        "choice3":  "Parking lgihts and high beam headlights",
+        "choice4":  "High beam headlights",
+        "answer": 1
+    },
+    {
+        "question": "A flashing red signal light at an intersection means:",
+        "choice1":  "Slow down and drive with increased caution",
+        "choice2":  "Slow down and if necessary yield right-of-way to cars approaching from the left or right",
+        "choice3":  "Signal light is out of order; proceed with caution",
+        "choice4":  "Stop. Proceed only when it is safe to do so",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "As a level one or level two driver, if you collect nine or more demerit points during a two-year period, your license will be suspended for?",
+        "choice1":  "60 days",
+        "choice2":  "30 days",
+        "choice3":  "1 year",
+        "choice4":  "15 days",
+        "answer": 0
+    },
+    {
+        "question": "If someone is tailgating you, what should you do?",
+        "choice1":  "Move into another lane when it is safe to do so",
+        "choice2":  "Slow down slightly to increase the space in front of your car",
+        "choice3":  "Pull over to let the tailgater pass",
+        "choice4":  "All of the above",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "To get your vehicle out of a skid (e.g your rear wheels suddenly slip to the right), you should first:",
+        "choice1":  "Steer in the opposite direction of the skid",
+        "choice2":  "Steer straight ahead",
+        "choice3":  "Apply brakes hard",
+        "choice4":  "Steer in the direction of the skid",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "If you want to pass a motorcycle, you should:",
+        "choice1":  "Honk your horn before you pass",
+        "choice2":  "Turn on your high-beam lights before you pass",
+        "choice3":  "Pass just as you would with another car",
+        "choice4":  "Use half of their lane to pass",
+        "answer": 2
+    },
+    {
+        "question": "If you lose control of your vehicle and it goes off the road, you should:",
+        "choice1":  "Grip the steering wheel firmly",
+        "choice2":  "Take your foot off the gas pedal to slow down and avoid heavy braking",
+        "choice3":  "When the vehicle is under control, steer back to the road",
+        "choice4":  "All of the above",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "Under the Criminal Code, if you are caught driving while your license is suspended, your vehicle will be impounded for?",
+        "choice1":  "1 year",
+        "choice2":  "6 months",
+        "choice3":  "45 days",
+        "choice4":  "30 days",
+        "answer": 2
+    },
+    {
+        "question": "The police have the right to stop any driver they suspect is impaired. If you refuse to take a breathalyzer test, your liccence will be suspended immediately for:",
+        "choice1":  "30 days",
+        "choice2":  "1 year",
+        "choice3":  "60 days",
+        "choice4":  "90 days",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "When on streets designed for two-way traffic, you hear the siren of an emergency vehicle, what does the law require you to do?",
+        "choice1":  "Speed up and get out the way",
+        "choice2":  "Signal the driver to pass",
+        "choice3":  "Pull to the right as far as possible and stop",
+        "choice4":  "Continue at the same speed",
+        "answer": 2
+    },
+    {
+        "question": "Snow tires are good for:",
+        "choice1":  "Summer driving",
+        "choice2":  "All season driving",
+        "choice3":  "Winter driving",
+        "choice4":  "Spring and fall only",
+        "answer": 2
+    },
+    {
+        "question": "When lights are required, drivers are required to use low beam headlights?",
+        "choice1":  "Within 1 km (0.6 miles) of the approach of another vehicle",
+        "choice2":  "Within 150 m (500 ft.) of the approach of another vehicle",
+        "choice3":  "Within 300 m (1000 ft.) of the approach of another vehicle",
+        "choice4":  "This is a safety practice, not a law;",
+        "answer": 1
+    },
+    {
+        "question": "Under the Highway Traffic Act, if you are convicted of driving while your license is suspended, assuming it is your first offence, you will:",
+        "choice1":  "Receive a fine of $500",
+        "choice2":  "Be fined between $1000 to $5000",
+        "choice3":  "Be sentenced to six months in jail",
+        "choice4":  "All of the above",
+        "answer": 1
+    },
+    {
+        "question": "At an intersection where there is a flashing amber (yellow) traffic light, you must:",
+        "choice1":  "Stop if making right turn",
+        "choice2":  "Continue at same speed",
+        "choice3":  "Stop if making left turn",
+        "choice4":  "Slow down and proceed with caution",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "Never change lanes in traffic without:",
+        "choice1":  "Giving proper signals and looking to make sure the move can be made safely",
+        "choice2":  "Decreasing speed and giving correct signal",
+        "choice3":  "Looking into the rear view mirror only",
+        "choice4":  "Blowing your horn and looking to the rear",
+        "answer": 0
+    },
+    {
+        "question": "Under what circumstances may a driver's license be cancelled?",
+        "choice1":  "For faliure to attend for re-examination",
+        "choice2":  "For possession of an altered driver's license",
+        "choice3":  "For faliure to satisfactorily complete a driver's re-examination",
+        "choice4":  "Any or all of the above",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "When selling a motor vehicle to another person, you, the seller should:",
+        "choice1":  "Notify the Ministry of the changes of ownership within six days of date of sale",
+        "choice2":  "Go with the buyer to a vehicle license issuing office to carry out the change of ownership",
+        "choice3":  "If selling the vehicle without a Safety Standards Certificate, you must return the vehicle license plates and motor vehicle permit to a vehicle license issuing office and obtain an Unfit Vehicle Permit in the buyer's name",
+        "choice4":  "All of the above",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "What documents may the police officer require a motor vehicle owner to produce?",
+        "choice1":  "If the motor vehicle is insured—a liablity insurance card",
+        "choice2":  "The motor vehicle ownership",
+        "choice3":  "If they are operating a motor vehicle—a valid driver's license",
+        "choice4":  "Any of the above",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "You should, under all conditions, drive at a speed which will allow you to:",
+        "choice1":  "Stop within 90 metres (300 ft.)",
+        "choice2":  "Stop within 60 metres (200 ft.)",
+        "choice3":  "Stop within a safe distance",
+        "choice4":  "Stop within 150 metres (500 ft.)",
+        "answer": 2
+    },
+    {
+        "question": "What insurance protection does the owner get who pays the uninsured motor vehicle fee?",
+        "choice1":  "$10,000 insurance coverage",
+        "choice2":  "$20,000 insurance coverage",
+        "choice3":  "$35,000 insurance coverage",
+        "choice4":  "No insurance protection whatsoever",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "Which of the following penalties can the court impose on a person convicted of driving 50 km/h (30 mph) or more over the speed limit?",
+        "choice1":  "Suspension of license for 6 months",
+        "choice2":  "Suspension of license for 30 days and/or fine up to $10,000",
+        "choice3":  "Impoundment of motor vehicle for 6 months",
+        "choice4":  "Imprisonment of person for 6 months",
+        "answer": 1
+    },
+    {
+        "question": "As a level one (G1) driver, you must be accokpanied by a G or higher licensed driver, who has the following driving experience more than:",
+        "choice1":  "Three years",
+        "choice2":  "Four years",
+        "choice3":  "Eight years",
+        "choice4":  "Six years",
+        "answer": 1
+    },
+    {
+        "question": "When may you lend your driver's license?",
+        "choice1":  "Never",
+        "choice2":  "To another person who is learning to drive",
+        "choice3":  "For identification purposes only",
+        "choice4":  "In emergencies",
+        "answer": 0
+    },
+    {
+        "question": "Overdriving your headlights at night is dangerous because:",
+        "choice1":  "You are driving too fast",
+        "choice2":  "Your headlights are too bright",
+        "choice3":  "You cannot stop within the distance you can see",
+        "choice4":  "It is not good for the car battery",
+        "answer": 2
+    },
+    {
+        "question": "When approaching an intersection where a traffic signal is red and a policeman motions you to go through, you should:",
+        "choice1":  "Wait for the light to turn green",
+        "choice2":  "Obey the policeman's signal and go through at once",
+        "choice3":  "Call the policeman's attention to the red light",
+        "choice4":  "Stop to make sure they want you to go through",
+        "answer": 1
+    },
+    {
+        "question": "When a car stops to allow pedestrian to cross the street at the marked crosswalk, you should:",
+        "choice1":  "Pass the stopped car on the left",
+        "choice2":  "Sound horn for the driver of the stopped car to drive on",
+        "choice3":  "Pass the stopped car on the right",
+        "choice4":  "Not pass any car stopped to allow a pedestrian to cross",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "When a truck becomes disabled on the highway, where the speed limit is in excess of 60 km/h, flares or reflectors must be placed approximately what distance ahead of and to the rear of this disabled vehicle?",
+        "choice1":  "15 m (50 ft.)",
+        "choice2":  "30 m (100 ft.)",
+        "choice3":  "60 m (200 ft.)",
+        "choice4":  "90 m (300 ft.)",
+        "answer": 1
+    },
+    {
+        "question": "Unless otherwise posted, the maximum speed limit allowed in cities, towns, villages, and built-up area is:",
+        "choice1":  "30 km/h (20 mph)",
+        "choice2":  "50 km/h (30 mph)",
+        "choice3":  "40 km/h (25 mph)",
+        "choice4":  "60 km.h (35 mph)",
+        "answer": 1
+    },
+    {
+        "question": "How soon, after a licensed driver changes their name or address, are they required to notify the Ministry of Transportation and Communications?",
+        "choice1":  "Within 6 days",
+        "choice2":  "Within 15 days",
+        "choice3":  "Within 30 days",
+        "choice4":  "At any time prior to renewal of lincence",
+        "answer": 0
+    },
+    {
+        "question": "When the traffic signal light is facing you is red and you intend to go staight through the intersection, what must you do?",
+        "choice1":  "Stop, give pedestrians the right-of-way, then proceed with caution",
+        "choice2":  "Stop, proceed when the way is clear",
+        "choice3":  "Slow down, proceed when the way is clear",
+        "choice4":  "Stop, proceed only when the signal turns green and when the way is clear",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "If you are involved in a reportable accident, how soon must you make a report to your nearest provincial or municipal police officer?",
+        "choice1":  "At once",
+        "choice2":  "Within 24 hours",
+        "choice3":  "Within 48 hours",
+        "choice4":  "Within 72 hours",
+        "answer": 0
+    },
+    {
+        "question": "Upon approaching a stop sign, a driver must:",
+        "choice1":  "Slow down, sound horn and proceed",
+        "choice2":  "Slow down, and if the way is clear, proceed",
+        "choice3":  "Stop, sound horn, then proceed",
+        "choice4":  "Stop, and when it is safe to do so, proceed",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "You are required to keep a safe distance behind the vehicle in front of you at 50 kilometres (30 miles) an hour. You should keep at least:",
+        "choice1":  "Seven car lengths behind the other vehicle",
+        "choice2":  "Three car lengths behind the other vehicle",
+        "choice3":  "One car lengths behind the other vehicle",
+        "choice4":  "Five car lengths behind the other vehicle",
+        "answer": 1
+    },
+    {
+        "question": "A 'school bus' with red signal lights flashing, stops on a highway that has no median strip. What does the law require you to do when meeting or overtaking the bus?",
+        "choice1":  "Does not matter provided you sound the horn",
+        "choice2":  "Stop until the bus proceeds or the signal lights are no longer flashing",
+        "choice3":  "Wait for the appraoching vehicles to pass",
+        "choice4":  "Reduce speed and pass with caution",
+        "answer": 1
+    },
+    {
+        "question": "When the driver of another vehicle is about to overtake and pass your vehicle, you must:",
+        "choice1":  "Move to the right and allow such vehicle to pass",
+        "choice2":  "Speed up so that passing is not necessary",
+        "choice3":  "Signal the other driver to not pass",
+        "choice4":  "Move to the left to prevent passing",
+        "answer": 0
+    },
+    {
+        "question": "A G-license driver may be required to attend an interview and re-examination of his driving ability:",
+        "choice1":  "When 9 demerit points have been accumulated",
+        "choice2":  "When 3 demerit points have been accumulated",
+        "choice3":  "When 6 demerit points have been accumulated",
+        "choice4":  "When 15 demerit points have been accumulated",
+        "answer": 0
+    },
+    {
+        "question": "Should your right wheels drop off the roadway, what is the best way to get back on the roadaway?",
+        "choice1":  "Steer hard to left",
+        "choice2":  "Apply brakes and steer hard to the left",
+        "choice3":  "Take off gas pedal, turn back when vehicle has slowed",
+        "choice4":  "Apply brakes to reduce speed",
+        "answer": 2
+    },
+    {
+        "question": "When approaching an intersection and you notice the roadway beyond the intersection is blocked with traffic, you should:",
+        "choice1":  "Keep as close as possible to the car ahead",
+        "choice2":  "Proceed slowly into the intersection until the traffic ahead moves",
+        "choice3":  "Stop before entering the intersection and wait until traffic ahead moves on",
+        "choice4":  "Sound horn to warn cars ahead to move on",
+        "answer": 2
+    },
+    {
+        "question": "When a streetcar stops to pick up or discharge passengers and there is a safety island, what does the law require you to do?",
+        "choice1":  "Pass with caution",
+        "choice2":  "Stop at least 2 metres behind the safety island",
+        "choice3":  "Sound horn and pass with caution",
+        "choice4":  "Pass on the left side of the streetcar",
+        "answer": 0
+    },
+    {
+        "question": "Most automobile skids are the result of:",
+        "choice1":  "Under-inflated tires",
+        "choice2":  "Over-inflated tires",
+        "choice3":  "Snow or ice on the road",
+        "choice4":  "Driving too fast",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "What must a driver do before entering a highway from a private road or driveway?",
+        "choice1":  "Sound horn and proceed with caution",
+        "choice2":  "Enter or cross the highway as quickly as possible",
+        "choice3":  "Give hand signal then take right-of-way",
+        "choice4":  "Yield right-of-way to all vehicles approaching on the highway",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "Parking lights may be used",
+        "choice1":  "At any time",
+        "choice2":  "For parking only",
+        "choice3":  "When driving in heavy fog",
+        "choice4":  "When driving on well lighted street",
+        "answer": 1
+    },
+    {
+        "question": "If you are driving and suddenly one of your tires blows out, you shoud:",
+        "choice1":  "Concentrate on steering",
+        "choice2":  "Take your foot off the gas pedal to slow down",
+        "choice3":  "Bring the vehicle to a stop off the road",
+        "choice4":  "All of the above",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "How close to a fire hydrant may you legally park?",
+        "choice1":  "3 metres (10 ft.)",
+        "choice2":  "4.5 metres (15 ft.)",
+        "choice3":  "1.5 metres (5 ft.)",
+        "choice4":  "6 metres (20 ft.)",
+        "answer": 0
+    },
+    {
+        "question": "As a level two (G2) driver your alcohol level must not be over:",
+        "choice1":  "0.08%",
+        "choice2":  "0.05%",
+        "choice3":  "0.02%",
+        "choice4":  "0.00%",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "When you are deciding whether or not to make 'U' turn, your first consideration should be to check:",
+        "choice1":  "Traffic regulations",
+        "choice2":  "Presence of trees, fire hydrants, or poles near the curb",
+        "choice3":  "Turning radius of your car",
+        "choice4":  "Height of the curb",
+        "answer": 0
+    },
+    {
+        "question": "Why is it necessary to check oaver your shoulder when changing lanes?",
+        "choice1":  "It is a good exercise for your neck",
+        "choice2":  "There will always be a blind spot in your mirrors, no matter how you adjust them",
+        "choice3":  "To see who is driving",
+        "choice4":  "All of the above",
+        "answer": 1
+    },
+    {
+        "question": "A solid centre line on the roadway is on your side of a broken centre line. What does the solid centre line mean?",
+        "choice1":  "It is unsafe to overtake and pass",
+        "choice2":  "Pass only when no traffic is in sight",
+        "choice3":  "It is safe to overtake and pass",
+        "choice4":  "Pass at any time",
+        "answer": 0
+    },
+    {
+        "question": "You must report an accident to the police under what condition",
+        "choice1":  "There is less than $600 damage",
+        "choice2":  "The damage is over $2000",
+        "choice3":  "If someone has been hurt or killed",
+        "choice4":  "2 and 3 are correct",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "Except when you intend to overtake and pass another vehicle or when you intend to make a left turn, you should:",
+        "choice1":  "Drive in the centre of the roadway",
+        "choice2":  "Always keep well to the right",
+        "choice3":  "Drive on the shoulder of the highway",
+        "choice4":  "Always keep well to the left",
+        "answer": 1
+    },
+    {
+        "question": "If you are charged with impaired driving for the first offense under the Criminal Code for a blood alcohol of 0.08 or more, your license will be suspended for:",
+        "choice1":  "3 days",
+        "choice2":  "7 days",
+        "choice3":  "30 days",
+        "choice4":  "90 days or more",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "Level one and level two drivers must have a blood alcohol level of zero when driving. New drivers caught drinking and driving will be charged under the Criminal Code and will get how many days of suspension?",
+        "choice1":  "30 days",
+        "choice2":  "60 days",
+        "choice3":  "90 days",
+        "choice4":  "1 year",
+        "answer": 0
+    },
+    {
+        "question": "A flashing green light at an intersection, where left and right turns are permitted means:",
+        "choice1":  "You may turn to the left if the way is clear",
+        "choice2":  "You may turn to the right if the way is clear",
+        "choice3":  "You may proceed straight through if the way is clear",
+        "choice4":  "You may do any of the above",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "If you are driving and your cellular phone rings, what should you do?",
+        "choice1":  "Pick up the phone quickly and talk briefly while driving",
+        "choice2":  "Check your messages when you are parked",
+        "choice3":  "Answer your phone if there are no police around",
+        "choice4":  "It is illegal to talk on the cellular while driving",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "If a traffic signal changes while a pedestrian is still in the street, which of the following has the right-of-way?",
+        "choice1":  "Motorists making turns",
+        "choice2":  "The pedestrian",
+        "choice3":  "Motorists coming from his right",
+        "choice4":  "Motorists coming from his left",
+        "answer": 1
+    },
+    {
+        "question": "Highway 407 is:",
+        "choice1":  "The longest highway is Ontario",
+        "choice2":  "Is a new highway",
+        "choice3":  "Is an express toll route (paid toll highway)",
+        "choice4":  "An expressway to the USA",
+        "answer": 2
+    },
+    {
+        "question": "Except when passing, what distance must be maintained between commercial vehicles travelling in the same direction on the highway outside a city, town, or village?",
+        "choice1":  "30 m (100 ft.)",
+        "choice2":  "60 m (200 ft.)",
+        "choice3":  "120 m (400 ft.)",
+        "choice4":  "150 m (500 ft.)",
+        "answer": 1
+    },
+    {
+        "question": "To what penalties is a driver liable who is convicted of driving while disqualified?",
+        "choice1":  "A fine of $500 or imprisonment for six months or both",
+        "choice2":  "Impoundment of the motor vehicle being operated for three months",
+        "choice3":  "An additional 6-month period of suspension of driving privilege",
+        "choice4":  "Any or all of the above",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "A flashing blue light mounted on a motor vehicle indicates:",
+        "choice1":  "A motor vehicle carrying explosives",
+        "choice2":  "Snow removal equipment",
+        "choice3":  "An ambulance",
+        "choice4":  "A police emergency vehicle",
+        "answer": 1
+    },
+    {
+        "question": "When approaching a railway crossing at which an electrical or mechanical signal device is warning of the appraoch of a train, you must:",
+        "choice1":  "Stop not less tahn 1.5 m (5 ft.) from the nearest rail",
+        "choice2":  "Increase speed and cross tracks as quickly as possible",
+        "choice3":  "Stop not less than 5 m (15 ft.) from the nearest rail",
+        "choice4":  "Slow down and proceed with caution",
+        "answer": 2
+    },
+    {
+        "question": "If you are involved in an accident in which someone is injured you must:",
+        "choice1":  "Report the accident at once to the nearest provincial or municipal police officer",
+        "choice2":  "Report the accident within 48 hours to the nearest provincial or municipal police officer",
+        "choice3":  "Report the accident to your insurance company only",
+        "choice4":  "Report the accident to the Ministry of Transportation and Communcations only",
+        "answer": 0
+    },
+    {
+        "question": "Under which of the following conditions is it dangerous and unlawful to make a 'U' turn?",
+        "choice1":  "Upon a curve or on a hill where there is a clear view of less than 150 m (500 ft.) in either direction",
+        "choice2":  "On a railway crossing or within 30 m (100 ft.) of a railway crossing",
+        "choice3":  "Within 150 m (500 ft.) of a bridge, viaduct, or tunnel if driver's view is obstructed",
+        "choice4":  "Under all of the above conditions",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "Demerit points lost wil remain on your driver's record for a period of _________ ,from the date of offence:",
+        "choice1":  "One year",
+        "choice2":  "Two years",
+        "choice3":  "Three years",
+        "choice4":  "Five years",
+        "answer": 1
+    },
+    {
+        "question": "Before moving your car from a parked position, you should:",
+        "choice1":  "Check other traffic, signal and pull from curb quickly",
+        "choice2":  "Honk your horn and pull from curb slowly",
+        "choice3":  "Check other traffic, signal, and pull from curb when it is safe to do so",
+        "choice4":  "Signal and pull from curb",
+        "answer": 2
+    },
+    {
+        "question": "If you are approaching an intersection and the traffic lights are not working, you should:",
+        "choice1":  "Yield to the traffic to your right",
+        "choice2":  "Stop until no cars are passing then go",
+        "choice3":  "Treat it as a four way stop sign",
+        "choice4":  "Slow down and proceed with caution",
+        "answer": 2
+    },
+    {
+        "question": "When descending a steep hill a good safe-driving practice is to:",
+        "choice1":  "Gear down and use motor to assist in braking",
+        "choice2":  "Turn off the ignition",
+        "choice3":  "Place the gear shift in neutral",
+        "choice4":  "Disengage the clutch and coast",
+        "answer": 0
+    },
+    {
+        "question": "Failing to stop for a school bus that is unloading passengers will:",
+        "choice1":  "Result in a one year jail sentence",
+        "choice2":  "Cost you 6 demerit points and a fine up to $1000",
+        "choice3":  "Get you a warning and a fine of $100",
+        "choice4":  "Result in retaking your road test",
+        "answer": 1
+    },
+    {
+        "question": "Unless otherwise posted, the maximum speed limit on the highway outside of a city, town, village, or built-up area is:",
+        "choice1":  "100 kilometres (60 miles) an hour",
+        "choice2":  "80 kilometres (50 miles) an hour",
+        "choice3":  "60 kilometres (40 miles) an hour",
+        "choice4":  "50 kilometres (30 miles) an hour",
+        "answer": 1
+    },
+    {
+        "question": "WHich of the following hand-and-arm signal is correct for slowing or stopping?",
+        "choice1":  "Arm out and up",
+        "choice2":  "Arm straight out the window",
+        "choice3":  "Arm out and down",
+        "choice4":  "Circle motion",
+        "answer": 2
+    },
+    {
+        "question": "If your brakes fail:",
+        "choice1":  "Pump the brake pedal",
+        "choice2":  "Apply the parking brake gently but firmly",
+        "choice3":  "Keep your hand on the release button (of the parking brake)",
+        "choice4":  "All of the above",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
+        "question": "When driving a motor vehicle on the highway at night, you should use low beam headlights (dim lights) when:",
+        "choice1":  "Approaching an intersection",
+        "choice2":  "Meeting or following another vehicle",
+        "choice3":  "Another driver dims their lights",
+        "choice4":  "Blinded by the headlights of an approaching vehicle",
+        "answer": 1
+    },
+    {
+        "question": "Level one drivers (G1) must keep their blood alcohol level to zero percent and be accompanied by a class G driver with a blood alcohol level of less than:",
+        "choice1":  "0.00%",
+        "choice2":  "0.05%",
+        "choice3":  "0.08%",
+        "choice4":  "0.03%",
+        "answer": 1
+    },
+    {
+        "question": "It is more dangerous to drive at the maximum speed limit at night than during the day-time because:",
+        "choice1":  "Some drivers unlawfully drive with parking lights only",
+        "choice2":  "You cannot see as far ahead at night",
+        "choice3":  "The roadway are more apt to be slippery at night",
+        "choice4":  "Your reaction time is slower at night",
+        "answer": 1
+    },
+    {
+        "question": "As a level one or level two driver, you will have your license suspended if you collect 9 or more demerit points during a two year period. 60 days after suspension, your record will be reduced to: ",
+        "choice1":  "6 points",
+        "choice2":  "4 points",
+        "choice3":  "0 points",
+        "choice4":  "2 points",
+        "answer": 1
+    },
+    {
+        "question": "If you are a teenage driver aged 19 or umder, in the first six months after recieving your G2 license, how many teenage pasengers are you allowed to carry between mignight to 5 am?",
+        "choice1":  "3 passengers aged 19 or under",
+        "choice2":  "No passengers aged 19 or under",
+        "choice3":  "1 passanger aged 19 or under",
+        "choice4":  "2 passanger aged 19 or under",
+        "answer": 2
+    },
+    {
+        "question": "If you are a teenage driver, after six months with your G2 license and until you obtain your full G license or turn 20, how many teenage pasengers are you allowed to carry between mignight to 5 am?",
+        "choice1":  "3 passangers aged 19 or under",
+        "choice2":  "No passangers aged 19 or under",
+        "choice3":  "1 passanger aged 19 or under",
+        "choice4":  "2 passangers aged 19 or under",
+        "answer": 0
+    },
+    {
+        "question": "There are some exemptions for a teenaged G2 driver, if you are accompanied by a fully licensed driver with at least ____ years of driving experience in the front seat or if your young passengers are members of your immediate family? (Midnight to 5 am)",
+        "choice1":  "2 years",
+        "choice2":  "3 years",
+        "choice3":  "4 years",
+        "choice4":  "5 years",
+        "answer": 2
+    },
+    {
+        "question": "The broken centre line on a roadway means you may:",
+        "choice1":  "Never pass",
+        "choice2":  "Pass if the way is clear",
+        "choice3":  "Pass at any time",
+        "choice4":  "Pass only during daylight hours",
+        "answer": 1
+    },
+    {
+        "question": "If you are involved in an accident that was due to your use of a cellular phone while driving:",
+        "choice1":  "Your insurance will increase",
+        "choice2":  "You will be charged with careless driving and lose 6 demerit points",
+        "choice3":  "Your license will be suspended for one year",
+        "choice4":  "You will have to take your road test again",
+        "answer": 1
+    },
+    {
+        "question": "At night when you meet another vehicle with blindng bright lights, the safest thing to do is:",
+        "choice1":  "Open and shut your eyes rapidly",
+        "choice2":  "Look at the headlights of the approaching vehicle",
+        "choice3":  "Turn your high beam lights on",
+        "choice4":  "Look slightly to the right hand side",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
-        "answer": 3
+        "question": "At 15 demerit points, your license is suspended, after 30 days, the number of points on the driver's record is:",
+        "choice1":  "Reduced to 7 points",
+        "choice2":  "Reduced to 0 points",
+        "choice3":  "Reduced to 5 points",
+        "choice4":  "None of the above",
+        "answer": 0
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1":  "msgBox('Hello World');",
-        "choice2":  "alertBox('Hello World');",
-        "choice3":  "msg('Hello World');",
-        "choice4":  "alert('Hello World');",
-        "answer": 3
+        "question": "When 15 or more demerit points have accumulated on a record, the driver's license is suspended:",
+        "choice1":  "Automatically, and for 30 days from receipt of license",
+        "choice2":  "At the discretion of the Ministry",
+        "choice3":  "Only if the license is NOT used for business purposes",
+        "choice4":  "For 3 months",
+        "answer": 0
+    },
+    {
+        "question": "The Ministry of Transportation and Communications may suspend a license after a 9 demerit point interview:",
+        "choice1":  "If the driver fails to give satisfactory reason(s) for why their license should not be suspended",
+        "choice2":  "If the driver does not have at least 5 years of driving experience",
+        "choice3":  "If the license is not needed for business reasons",
+        "choice4":  "The Ministry is not permitted to suspend a license before the 15-point level is reached",
+        "answer": 0
     }
 ]
