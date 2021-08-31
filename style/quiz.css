@@ -34,6 +34,15 @@
     background-color: #DC3545;
 }
 
+.hide {
+    opacity: 0;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    margin: 0;
+    transition: all 0.5s ease;
+}
+
 img {
     border-radius: 5px;
     margin: auto;
@@ -45,6 +54,24 @@ img {
     /* width: 150px;
     height: 200px; */
 }
+
+#question {
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.choice-text{
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 1.9rem;
+}
+
+.choice-prefix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* HUD Styling */
 #hud {
     display: flex;
@@ -67,6 +94,7 @@ img {
     height: 4rem;
     border: 0.3rem solid #56A5EB;
     margin-top: 1.5rem;
+    border-radius: 10px;
 
 }
 
