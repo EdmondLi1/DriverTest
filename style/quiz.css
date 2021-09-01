@@ -6,11 +6,13 @@
     border: 0.1rem solid rgba(86, 165, 235, 0.25);
     background-color: white;
     border-radius: 15px;
+    box-shadow: 0 0 20px #eee;
 }
 .choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
     transform: translateY(-0.1rem);
+    transform: scale(0.98);
     transition: transform 150ms;
 }
 
@@ -40,19 +42,17 @@
     width: 0;
     height: 0;
     margin: 0;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 img {
     border-radius: 5px;
     margin: auto;
-    width: 25vw;
+    width: 22vw;
     height: auto;
-    max-width: 350px;
-    /* max-height: 350px; */
-    margin-bottom: 5rem;
-    /* width: 150px;
-    height: 200px; */
+    max-height: 480px;
+    max-width: 210px;
+    margin-bottom: 3.2rem;
 }
 
 #question {
@@ -95,7 +95,6 @@ img {
     border: 0.3rem solid #56A5EB;
     margin-top: 1.5rem;
     border-radius: 10px;
-
 }
 
 #progressBarFull {
