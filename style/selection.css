@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+::selection {
+    color: #fff;
+    background: #56BAED;
+}
+
+.select-box, .result-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    padding: 20px 25px 25px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px #eee;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.result-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+/* .summary-section{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+summary {
+    font-weight: 600;
+} */
+
+header{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.options{
+    display: flex;
+    width: 100%;
+}
+
+.options button{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline:none;
+    background: linear-gradient(to right, #162220 0%, #3A6073  51%, #16222A  100%);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-align: center;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px lightgray;
+}
+
+.options button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    transform: scale(0.96);
+}
+
+button.again{
+    margin-right: 10px;
+}
+
+button.home{
+    margin-left: 10px;
+}
+
+button.signs{
+    margin-right: 10px;
+}
+
+button.all{
+  margin-left: 10px;
+}

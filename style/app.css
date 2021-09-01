@@ -12,6 +12,20 @@
     color: #333;
 }
 
+body {
+    background: linear-gradient( 75.9deg, rgba(156,252,248, 0.85) 11.2%, rgba(110,123,251,0.70) 91.1% );
+    margin: auto;
+    padding: 20px;
+    height: 100%;
+    max-height: 130vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -19,10 +33,10 @@ h4 {
     margin-bottom: 1rem;
 }
 
-h1 {
+h1 {    
     font-size: 5.4rem;
-    color: #56A5EB;
     margin-bottom: 5rem;
+    color: #56A5EB;
 }
 
 h1 > span {
@@ -32,7 +46,7 @@ h1 > span {
 
 h2 {
     font-size: 4.2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     font-weight: 700;
 }
 
@@ -42,21 +56,16 @@ h3 {
 }
 
 /* UTLITIES CSS */
-
 .container{
-    width: 100vw;
-    height: 100vw;
-
     /* Hortionzal and Vertical centering */
     display: flex;
     justify-content: center;
     align-items: center;
 
-    /*  */
-    max-width: 80rem;
-    margin: 0 auto;
+    width: 78rem;
+    height: 100vh;
+    margin: auto;
     padding: 2rem;
-
 }
 
 .container > * {
@@ -91,11 +100,13 @@ h3 {
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #56A5EB;
+    border-radius: 5px;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #56A5EB;
+    color: black;
+    font-weight: 500;
     background-color: white;
+    box-shadow: 0 0 20px lightgray;
 }
 
 .button:hover {
@@ -110,4 +121,3 @@ h3 {
     box-shadow: none;
     transform: none;
 }
-

@@ -7,16 +7,24 @@
     <title> Quiz </title>
     <link rel="stylesheet" href="style/app.css">
     <link rel="stylesheet" href="style/quiz.css">
-    
+    <link rel="stylesheet" href="style/selection.css">
 </head>
 <body>
-
-
     <!-- add select box here -->
-
+    <div class="select-box">
+        <header> Driver Test </header>
+        <div class="content">
+            <div class="title"> Please select your Test preference: </div>
+                <div class="options">
+                    <button class="signs">Road Signs Only</button>
+                    <button class="rules">Road Rules Only</button>
+                    <button class="all">Whole Quiz</button>
+            </div>
+        </div>
+    </div>
     <!-- Container for Styling in CSS spreasheet -->
     <div class="container">
-        <div id="game" class="justify-center flex-column">
+        <div id="game" class="justify-center flex-column hide">
 
             <!-- HUD - Head's Up Display -->
             <div id="hud">
@@ -71,7 +79,34 @@
     </div>
 
     <!-- add result box here -->
+    <div class="result-box hide">
+        <div class="content">
+        <header> Test Result </header>
+        <div class="title"> Your score for this portion is: </div>
+            <div class="score"> 0 </div>
+            <div class="result-text"> With this in mind, you have passed with 0 / 20! </div>
+            <!--
+            mayeb in the future, as for now- nope! 
+            <div class="summary-section">
+                <details>
+                    <summary> Question Log </summary>
+                    <p>question 
+                       Test
+                       lol <br>
 
+                       Question
+                       answer
+                       correctanswer
+                    </p>
+                </details>
+            </div> -->
+
+            <div class="options">
+                <button class="again"> Take Test Again </button>
+                <button class="home">Home</button>
+            </div>
+        </div>
+    </div>
     
     <script src="js/quiz.js"></script>
 </body>
