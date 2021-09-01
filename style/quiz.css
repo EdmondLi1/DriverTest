@@ -8,6 +8,7 @@
     border-radius: 15px;
     box-shadow: 0 0 20px #eee;
 }
+
 .choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
