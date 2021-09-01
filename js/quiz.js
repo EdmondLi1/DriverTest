@@ -58,7 +58,7 @@ window.onload = () => {
 
     all.onclick = () => {
         displayQuiz();
-    }
+    };
 };
 
 // wait function used to delay until user has pressed button
@@ -88,7 +88,7 @@ const displayResult = (scoreSection, isSign) => {
     resultBox.classList.remove("hide");
     scoreFinal.innerHTML = scoreSection;
 
-    if (score > 160) {
+    if (score >= 160) {
         resultText.innerHTML = `You have successful passed the ${testType}'s section with ${scoreSection / CORRECT_BONUS} / ${MAX_QUESTIONS} answered!`;
     } else {
         resultText.innerHTML = `Unforunately you have failed the ${testType}'s section with ${scoreSection / CORRECT_BONUS} / ${MAX_QUESTIONS} answered :(.`;
